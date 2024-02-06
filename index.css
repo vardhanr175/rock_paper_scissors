@@ -1,0 +1,85 @@
+
+@media(max-width:480px){
+    .gameDiv {
+        font-family:cursive,'Brush Script MT';
+        border: 3px solid;
+        border-radius: 25px;
+        padding: 10px;
+        background-color: lightgrey;
+       text-align: center;
+    }
+    .choiceBtn {
+        line-height: 30px;
+        width:85%;
+        background-color: #71e7c5;
+        color: white;
+        font-size: 18px;
+        border: none;
+        border-radius: 12px;
+        display: block;
+        margin: auto;
+        margin-top: 5px;
+    }
+    #playerText{
+        color: blue;
+    }
+    #computerText{
+        color: red;
+    }
+}
+@media(min-width:481px) and (max-width:768px){
+    .gameDiv {
+        font-family:cursive,'Brush Script MT';
+        border: 3px solid;
+        width:450px;
+        margin:auto;
+        border-radius: 25px;
+        padding: 10px;
+        background-color: lightgrey;
+       text-align: center;
+    }
+    .choiceBtn {
+        line-height: 30px;
+        width:130px;
+        background-color: #71e7c5;
+        color: white;
+        font-size: 18px;
+        border: none;
+        border-radius: 12px;
+       
+    }
+    #playerText{
+        color: blue;
+    }
+    #computerText{
+        color: red;
+    }
+}
+@media(min-width:769px){
+    .gameDiv {
+        font-family:cursive,'Brush Script MT';
+        border: 3px solid;
+        width: 500px;
+        margin: auto;
+        border-radius: 25px;
+        padding: 10px;
+        background-color: lightgrey;
+       text-align: center;
+    }
+    .choiceBtn {
+        line-height: 30px;
+        width:130px;
+        background-color: #71e7c5;
+        color: white;
+        font-size: 18px;
+        border: none;
+        border-radius: 12px;
+       
+    }
+    #playerText{
+        color: blue;
+    }
+    #computerText{
+        color: red;
+    }
+}
